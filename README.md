@@ -14,7 +14,7 @@ months:
 * [ ] 增加circle ci持续集成
 * [ ] 发布到jquery官方网站
 * [ ] npm helloworld
-* [-] readme.md(only test the selected todo style)
+* [x] readme.md(only test the selected todo style)
 
 ## Author
 
