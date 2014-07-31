@@ -14,8 +14,14 @@ months:
 * [ ] 增加circle ci持续集成
 * [ ] 发布到jquery官方网站
 * [ ] npm helloworld
+* [-] readme.md(only test the selected todo style)
 
 ## Author
 
 - write by 柯织
 - review by i5ting
+
+
+## Shared Link
+
+- [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
