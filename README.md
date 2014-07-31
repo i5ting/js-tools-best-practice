@@ -14,7 +14,7 @@ months:
 * [ ] 增加circle ci持续集成
 * [ ] 发布到jquery官方网站
 * [ ] npm helloworld
-* [x] only test the selected todo style[git markdown usage](https://github.com/cssmagic/blog/issues/13)
+* [x] only test the selected todo style and  [git markdown usage](https://github.com/cssmagic/blog/issues/13)
 
 ## Author
 
