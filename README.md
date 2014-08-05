@@ -7,13 +7,13 @@ js-tools-best-practice
 These are the new features you should expect in the coming
 months:
 
-* [ ] 使用grunt-init jquery创建一个jquery plugin项目（了解插件写法和grunt用法，以及qunit测试）
-* [ ] 增加bower
+* [x] 使用grunt-init jquery创建一个jquery plugin项目（了解插件写法和grunt用法，以及qunit测试）
+* [x] 增加bower
 * [ ] 增加componet
 * [ ] 增加gulp压缩
 * [ ] 增加circle ci持续集成
 * [ ] 发布到jquery官方网站
-* [ ] npm helloworld
+* [x] npm helloworld
 * [x] only test the selected todo style and  [git markdown usage](https://github.com/cssmagic/blog/issues/13)
 
 ## Author
