@@ -1,0 +1,126 @@
+/**
+tab css
+Author	kezhi
+ **/
+/*.menuMore {
+	width: 6%;
+	background: -webkit-gradient(linear,0% 0%, 0% 100%, from(#ededed), to(#F7F7F7));
+	 position: relative;
+}
+
+-webkit-transform:  rotate(130deg) skew(-10deg);
+	
+-moz-transform:  rotate(130deg) skew(-10deg);
+	
+-o-transform:  rotate(130deg) skew(-10deg);
+	
+-ms-transform:  rotate(130deg) skew(-10deg);
+	
+transform:  rotate(130deg) skew(-10deg);
+	
+transform:  rotate(130deg) skew(-10deg);
+	
+border-top: 1px solid #6a6a6a;
+	 border-left: 1px solid #6a6a6a;
+	height: 9px;
+	width: 9px;
+	position:  absolute;
+	top: 15px;
+	right: 45%;
+}
+}
+
+*/
+.tab_header {
+	margin: 0 2%;
+	width: 96%;
+	height: 44px;
+	line-height: 44px;
+	position: relative;
+	overflow: hidden;
+}
+
+.tab_header > ul {
+	white-space: nowrap;
+	position: relative;
+	left: 0px;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.tab_header > ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.tab_header > ul > li {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	font-size: 1.1em;
+	color: #808080;
+	height: 38px;
+	border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.tab_header > ul > li:nth-child(last) {
+	margin-right: 8px;
+}
+
+.tab_header > ul > li > a {
+	display: block;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.tab_header .current {
+	color: #fff;
+	background: #f65f0e;
+	border-radius: 2px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.tab_header li a.on {
+	color: #fff;
+	background: #f65f0e;
+	border-radius: 2px;
+}
+
+.tab_header li span.li_arrow {
+	background: url(../images/lt_tab/tabmenu_on.gif) no-repeat;
+	width: 12px;
+	height: 4px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 2px;
+	left: 50%;
+	margin-left: -6px;
+	z-index: 3;
+}
+
+.tab_content_container {
+	border-top: 1px solid #f18850;
+}
+
+.tab_content_container .tab_content {
+	display: none;
+}
+
+.tab_content_container .current {
+	display: block;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tab-plugin",
+  "version": "v0.0.0",
+  "authors": [
+    "kezhizhi <kezhizhi@163.com>"
+  ],
+  "description": "a jquery-plugin",
+  "main": "jquery.lt_tab.js",
+  "keywords": [
+    "tab",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "git://github.com/kezhi/tab-plugin",
+  "dependencies": {
+	 "jquery": "v2.1.1"
+   },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

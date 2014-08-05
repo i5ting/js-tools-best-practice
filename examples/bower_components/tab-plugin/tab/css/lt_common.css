@@ -1,0 +1,92 @@
+﻿/*调试样式*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul,li {
+	list-style: none;
+}
+
+body {
+	padding: 0px;
+	margin: 0;
+	top: 0;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+	width: 100%;
+	background-color: #eeeeee;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+.clearfix:before,.clearfix:after {
+	content: ".";
+	display: block; 
+	height: 0;
+	visibility: hidden; 
+	vertical-align: middle;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clear{
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+img{
+	vertical-align: top;
+}
+
+.button > input{
+	border: none;
+}
+
+input[type="button"]{
+	cursor: pointer;
+}
+
+.button_container{
+	display: block;
+	position: absolute;
+	top: 0px;
+	width: 62px;
+	height: 40px;
+}
+
+.button_container a{
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+
+div.button_container:nth-child(1) {
+	left: 10px;
+}
+
+div.button_container:nth-child(2) {
+	right: 10px;
+}
+
+.left10{
+	left: 10px;
+} 
+
+.right10{
+	right: 10px;
+} 

@@ -1,0 +1,34 @@
+{
+  "name": "tab-plugin",
+  "authors": [
+    "kezhizhi <kezhizhi@163.com>"
+  ],
+  "description": "a jquery-plugin",
+  "main": "jquery.lt_tab.js",
+  "keywords": [
+    "tab",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "git://github.com/kezhi/tab-plugin",
+  "dependencies": {
+    "jquery": "v2.1.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0643a3a336",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0643a3a336605a7e009bd4892b9802d6f8d7bb5f"
+  },
+  "_source": "git://github.com/kezhi/tab-plugin.git",
+  "_target": "*",
+  "_originalSource": "tab-plugin",
+  "_direct": true
+}
