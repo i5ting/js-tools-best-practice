@@ -18,10 +18,6 @@ months:
 * [ ] npm helloworld
 * [x] only test the selected todo style and  [git markdown usage](https://github.com/cssmagic/blog/issues/13)
 
-## Author
-
-- write by 柯织
-- review by i5ting
 
 ## Shared Link
 
@@ -41,7 +37,12 @@ months:
 
 ## 欢迎fork和反馈
 
-在issue提问或邮件shiren1118@126.com
+Author
+
+- write by `柯织` kezhizhi@163.com
+- review by `i5ting` shiren1118@126.com
+
+如有建议或意见，请在issue提问或邮件
 
 ## License
 
