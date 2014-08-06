@@ -16,12 +16,22 @@ months:
 * [ ] 增加travis ci持续集成
 * [ ] 发布到jquery官方网站
 * [ ] npm helloworld
-* [x] only test the selected todo style and  [git markdown usage](https://github.com/cssmagic/blog/issues/13)
 
 
 ## Shared Link
 
+- [git markdown usage](https://github.com/cssmagic/blog/issues/13)
 - [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
+- https://travis-ci.org
+- http://bower.io/
+- http://gruntjs.com/
+- http://gulpjs.com/
+- https://github.com/component/component
+- https://circleci.com/
+- https://www.npmjs.org/
+- http://nodejs.org/
+- http://plugins.jquery.com/
+
 
 ## Contributing
 
@@ -36,8 +46,6 @@ months:
 - v0.1.0 初始化版本
 
 ## 欢迎fork和反馈
-
-Author
 
 - write by `柯织` kezhizhi@163.com
 - review by `i5ting` shiren1118@126.com
