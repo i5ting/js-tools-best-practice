@@ -230,3 +230,4 @@ gulp watch log info : src directory changed.
 - [官方网站](http://gulpjs.com/)
 - [使用文档](https://github.com/wearefractal/gulp/ )
 - [插件列表](http://gratimax.github.io/search-gulp-plugins/)
+- [Grunt Gulp 战斗法师](http://zhuanlan.zhihu.com/TLA42/19711450)
