@@ -149,6 +149,71 @@ open dist
 ```
 
 check if lt_tab.min.js is existed.
+
+## 使用watch
+
+说明watch是内置的task，用于监控文件变动
+
+	var gulp = require('gulp');
+
+	gulp.task('default', function() {
+	  gulp.watch('./src/**/*', ['src']);
+	});
+
+	gulp.task('src', function(done) {
+		console.log('gulp watch log info : src directory changed.');
+	});
+
+启动gulp,然后修改index.js，控制台输入`gulp watch log info : src directory changed.`即代表成功
+
+
+```
+ demo5 git:(master) ✗ gulp 
+[21:43:10] Using gulpfile ~/Workspace/github/js-tools-best-practice/gulp-demo/demo5/gulpfile.js
+[21:43:10] Starting 'default'...
+[21:43:10] Finished 'default' after 11 ms
+[21:43:17] Starting 'src'...
+gulp watch log info : src directory changed.
+```
+
+## 作业依赖
+
+看demo6，和demo5的代码基本上一样
+
+	var gulp = require('gulp');
+
+	gulp.task('default',['watch'],function() {
+		console.log('default task');
+	});
+
+	gulp.task('watch', function() {
+	  gulp.watch('./src/**/*', ['src']);
+	});
+
+	gulp.task('src', function(done) {
+		console.log('gulp watch log info : src directory changed.');
+	});
+
+注意
+
+	gulp.task('default',['watch'],function() {
+		console.log('default task');
+	});
+
+
+这里的task有3个参数，
+
+1. default是方法名称，只有default比较奇怪，会默认调用。相当于c里的main方法
+1. `['watch']`这是依赖的作业列表，它们是由顺序的，按数组顺序依次执行
+1. 第三个参数是成功执行完上面的依赖作业后执行的回调函数
+
+改一下：
+
+	gulp.task('default',['watch','task_2','task_3'],function() {
+		console.log('依赖作业终于执行完了，下面是我的舞台....');
+	});
+
+
 	
 ## concution
 
