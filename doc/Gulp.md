@@ -226,5 +226,7 @@ gulp watch log info : src directory changed.
 - [gulp plugins](http://gulpjs.com/plugins/)
 - [gulp-uglify](https://www.npmjs.org/package/gulp-uglify/)
 - [gulp-rename](https://www.npmjs.org/package/gulp-rename/)
-
-
+- [Gulp.js：比 Grunt 更简单的自动化的项目构建利器](http://www.tuicool.com/articles/n2Uj2y)
+- [官方网站](http://gulpjs.com/)
+- [使用文档](https://github.com/wearefractal/gulp/ )
+- [插件列表](http://gratimax.github.io/search-gulp-plugins/)
