@@ -34,6 +34,10 @@ months:
 - http://plugins.jquery.com/
 
 
+## 说明
+
+- node_modules这样的目录是不允许提交到项目里来的，放到`.gitignore`文件中
+
 ## Contributing
 
 1. Fork it
