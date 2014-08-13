@@ -37,6 +37,7 @@ months:
 - https://www.npmjs.org/
 - http://nodejs.org/
 - http://plugins.jquery.com/
+- https://github.com/blynn/gitmagic
 
 
 ## 说明
