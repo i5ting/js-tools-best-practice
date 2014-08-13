@@ -104,3 +104,42 @@ grunt.registerTask('default', ['uglify']);
 ## 执行grunt任务
 
 	grunt
+
+
+
+## grunt-init
+
+	npm install -g grunt-init
+
+## document
+
+
+http://www.gruntjs.org/docs/project-scaffolding.html
+
+
+### 创建一个包含QUnit单元测试的jQuery插件
+
+	git clone https://github.com/gruntjs/grunt-init-jquery.git ~/.grunt-init/jquery
+
+### 创建一个包含Nodeunit单元测试的commonjs模块
+
+	git clone https://github.com/gruntjs/grunt-init-commonjs ~/.grunt-init/commonjs
+
+### 创建一个基本的Gruntfile
+
+	git clone https://github.com/gruntjs/grunt-init-gruntfile ~/.grunt-init/gruntfile
+
+### 创建一个包含Nodeunit单元测试的Grunt插件
+ 
+	git clone https://github.com/gruntjs/grunt-init-gruntplugin ~/.grunt-init/gruntplugin
+
+### 创建一个包含Nodeunit单元测试的Node.js模块
+
+	git clone https://github.com/gruntjs/grunt-init-node ~/.grunt-init/node
+	
+	
+git clone https://github.com/gruntjs/grunt-init-jquery.git ~/.grunt-init/jquery
+git clone https://github.com/gruntjs/grunt-init-commonjs ~/.grunt-init/commonjs
+git clone https://github.com/gruntjs/grunt-init-gruntfile ~/.grunt-init/gruntfile
+git clone https://github.com/gruntjs/grunt-init-gruntplugin ~/.grunt-init/gruntplugin
+git clone https://github.com/gruntjs/grunt-init-node ~/.grunt-init/node

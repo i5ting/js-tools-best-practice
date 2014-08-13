@@ -40,6 +40,7 @@ months:
 - https://github.com/blynn/gitmagic
 - http://front-end-standards.com/
 - https://github.com/exfork/mobileTech
+- http://www.gruntjs.org/docs/project-scaffolding.html（项目脚手架）
 
 
 ## 说明
