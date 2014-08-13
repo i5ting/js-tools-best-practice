@@ -38,6 +38,7 @@ months:
 - http://nodejs.org/
 - http://plugins.jquery.com/
 - https://github.com/blynn/gitmagic
+- http://front-end-standards.com/
 
 
 ## 说明
