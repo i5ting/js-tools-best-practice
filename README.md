@@ -39,6 +39,7 @@ months:
 - http://plugins.jquery.com/
 - https://github.com/blynn/gitmagic
 - http://front-end-standards.com/
+- https://github.com/exfork/mobileTech
 
 
 ## 说明
