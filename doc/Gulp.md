@@ -213,6 +213,70 @@ gulp watch log info : src directory changed.
 		console.log('依赖作业终于执行完了，下面是我的舞台....');
 	});
 
+## concat
+
+合并代码
+
+	var gulp = require('gulp');
+	var uglify = require('gulp-uglify');
+	var rename = require('gulp-rename');
+	var concat  = require('gulp-concat');
+
+	gulp.task('default', function() {
+		gulp.src('src/*.js')
+			.pipe(uglify())
+			.pipe(rename(function (path) {
+				path.extname = ".min.js"
+			}))
+			.pipe(concat('trans.min.js'))
+			.pipe(gulp.dest('toc/js'));
+	});
+
+说明：会把src下得每个js都压缩，然后concat合并成一个trans.min.js，并放到toc/js目录下面
+
+## use with shelljs
+
+see demo 8
+
+
+	var gulp = require('gulp');
+	var uglify = require('gulp-uglify');
+	var rename = require('gulp-rename');
+	var concat  = require('gulp-concat');
+
+	require('shelljs/global');
+
+
+	gulp.task('default', function() {
+		gulp.src('src/*.js')
+			.pipe(uglify())
+			.pipe(rename(function (path) {
+				path.extname = ".min.js"
+			}))
+			.pipe(concat('trans.min.js'))
+			.pipe(gulp.dest('toc/js'));
+		
+		cp('-R', 'lib/*', 'toc/lib/');
+	});
+
+需求：我需要把lib下的所有js文件，放到toc/lib下，查看http://gulpjs.com/plugins/无和cp或copy有关的插件，so
+
+用shell写的
+
+	cp -rf  lib/* toc/lib/
+ 
+需要用到shelljs
+
+	cp('-R', 'lib/*', 'toc/lib/');
+
+是不是很简单啊？
+
+
+ShellJS is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API. You can use it to eliminate your shell script's dependency on Unix while still keeping its familiar and powerful commands. You can also install it globally so you can run it from outside Node projects - say goodbye to those gnarly Bash scripts!
+
+http://documentup.com/arturadib/shelljs
+
+
 
 ## reload usage
 
