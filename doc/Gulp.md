@@ -306,3 +306,4 @@ http://documentup.com/arturadib/shelljs
 - [使用文档](https://github.com/wearefractal/gulp/ )
 - [插件列表](http://gratimax.github.io/search-gulp-plugins/)
 - [Grunt Gulp 战斗法师](http://zhuanlan.zhihu.com/TLA42/19711450)
+- [awesome-9-gulp-plugins/](http://blog.nodejitsu.com/npmawesome-9-gulp-plugins/)
