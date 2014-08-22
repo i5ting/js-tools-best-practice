@@ -18,6 +18,11 @@ months:
 * [ ] npm helloworld
 
 
+## Tutorial
+
+- [Grunt](https://github.com/i5ting/js-tools-best-practice/blob/master/doc/grunt.md)
+- [Gulp](https://github.com/i5ting/js-tools-best-practice/blob/master/doc/Gulp.md)
+- [Bower](https://github.com/i5ting/js-tools-best-practice/blob/master/doc/bower.md)
 
 ## Shared Link
 
@@ -32,7 +37,15 @@ months:
 - https://www.npmjs.org/
 - http://nodejs.org/
 - http://plugins.jquery.com/
+- https://github.com/blynn/gitmagic
+- http://front-end-standards.com/
+- https://github.com/exfork/mobileTech
+- http://www.gruntjs.org/docs/project-scaffolding.html（项目脚手架）
 
+
+## 说明
+
+- node_modules这样的目录是不允许提交到项目里来的，放到`.gitignore`文件中
 
 ## Contributing
 
