@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="10644dca-9d92-4898-b82c-aa06a858de15" name="Default" comment="" />
-    <list default="true" id="5d199904-667c-485f-abaf-42f2c2a47c44" name="lt_tab.js" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp-demo/build.sh" afterPath="$PROJECT_DIR$/gulp-demo/build.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="5d199904-667c-485f-abaf-42f2c2a47c44" name="lt_tab.js" comment="" />
     <ignored path="js-tools-best-practice.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
