@@ -15,3 +15,7 @@ gulp
 cd ../demo4
 rm -rf dist if -d dist
 gulp
+
+cd ../demo5
+rm -rf dist if -d dist
+gulp
