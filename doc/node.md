@@ -71,3 +71,16 @@ nrm 为开源软件，使用 MIT 许可。
 
 github.com/Pana/nrm
 
+## npm推荐
+
+### node-open
+
+使用mac打开文件夹的时候竟然使用open命令，比如
+
+- 打开文件夹
+- 打开浏览器
+
+node里有open这个模块，并且适配各平台的open，有兴趣的可以自己去看一下源码
+
+https://github.com/pwnall/node-open
+
