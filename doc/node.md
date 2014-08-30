@@ -71,6 +71,27 @@ nrm 为开源软件，使用 MIT 许可。
 
 github.com/Pana/nrm
 
+## 发布npm
+
+直接的npm init还是要做的，待要发布的时候增加用户，然后publish
+
+	npm adduser
+	npm publish --tag 0.1.0  
+
+
+最后，如果你报错
+
+	no_perms Private mode enable, only admin can publish this module
+
+那么可能是你用了国内的镜像地址了，只需要重新把地址注册回npmjs即可。
+
+	npm config set registry http://registry.npmjs.org
+	
+or
+
+	nrm use npm
+
+
 ## npm推荐
 
 ### node-open
@@ -83,4 +104,6 @@ github.com/Pana/nrm
 node里有open这个模块，并且适配各平台的open，有兴趣的可以自己去看一下源码
 
 https://github.com/pwnall/node-open
+
+
 
